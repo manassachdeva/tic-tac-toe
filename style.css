@@ -1,0 +1,39 @@
+body{
+	/* <iframe src="https://giphy.com/embed/WPwD0gdWFsNRy8LA2P" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/background-visuals-particles-WPwD0gdWFsNRy8LA2P">via GIPHY</a></p> */
+	background: url(https://media.giphy.com/media/jRG7zg5fWYknDGrw5E/giphy.gif);
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+.game {
+	margin: auto;
+	width: 300px;
+	height: 300px;
+	
+	
+}
+#box{
+	text-align: center;
+	/* display: grid; */
+	/* gap: 100px/; */
+}
+
+.row {
+	display: flex;
+}
+.game{
+	background: rgb(34,193,195);
+	background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(45,253,247,1) 100%);
+}
+
+.cell {
+	border: 1px solid black;
+	width: 100px;
+	height: 100px;
+	font-size: 50px;
+	text-align: center;
+	line-height: 100px;
+	cursor: pointer;
+}
